@@ -1,0 +1,19 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ryu.dictation",
+  "version": "0.1.15",
+  "description": "System-wide dictation and agent-ask hosted by the Island companion: speak anywhere to type a raw or locally cleaned transcript, or ask an agent and paste the answer into the focused app. Requires the Island companion, which is not available in this release, so it is hidden from the store until Island ships.",
+  "author": {
+    "name": "Ryu",
+    "url": "https://ryuhq.com"
+  },
+  "homepage": "https://github.com/amajorai/ryu-dictation",
+  "repository": "https://github.com/amajorai/ryu-dictation",
+  "keywords": ["dictation", "voice", "transcription", "speech", "cleanup"],
+  "extensions": {
+    "com.ryuhq.ryu": {
+      "id": "@ryu/dictation",
+      "displayName": "Dictation"
+    }
+  }
+}
